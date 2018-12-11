@@ -1,0 +1,56 @@
+Занятие 1
+Переменные
+
+Line break and semicolon ";" логическое завершение функции
+
+Comments
+	// строчный
+	/* мультистрочный */
+
+Variables ES5
+var - объявление переменной
+
+Variables ES6
+let - до закрытия первой }
+
+Variables naming
+
+let myName;
+let test123;
+
+let $ = 1; // name $
+let _ = 2; // name _
+
+let 1a; // error
+let my-name; // error
+let return = 5; // error
+
+const cOlOR_RED = '#f00'; //valid const name
+
+
+Data types
+
+6 primitive types:
+	boolean
+	null (пустой файл, нет данныйх)
+	undefined (tottaly absent of data)
+	number (NaN: type-number)
+	string 
+	symbol (new in ES6) (уникальный примитив ссылки(типа id))
+
+and Object (ссылочный тип данных)
+
+
+typeof
+
+Operators
+присвоение =
+постинкремент a++
+прединкремент ++b
+
+сложение + (если хоть одна часть сложения стринга, другая часть будет приводиться к стринге и будет выполнятся канкатинация)
+вычитание - (будет приводиться к числу и будет выполнятся вычитание)
+умножение как сложение
+деление как вычитание
+
+оператор
